@@ -7,7 +7,7 @@
 * `<Leader><Leader>` - switch between last two files
 * `.` - repeat last command
 * `:noh` - clear highlighting
- 
+
 #### Traversing files
 * `{`, `}` - jump paragraph
 * `<Ctrl-d/u>` - jump half-screen
@@ -61,6 +61,7 @@
 * `<Ctrl-r>` - redo
 
 #### Find
+* `*` - search file for current word
 * `/pattern` - search the file for pattern
 * `n` - next match
 * `N` - prev match
