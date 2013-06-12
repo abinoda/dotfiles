@@ -32,6 +32,8 @@ set guioptions-=T                 " hide toolbar
 set fillchars=                    " emply splitbars
 set guifont=Inconsolata:h13       " set font
 
+set timeout timeoutlen=3000 ttimeoutlen=100
+
 set encoding=utf-8
 set laststatus=2                  " always show the status line
 
