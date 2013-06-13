@@ -91,6 +91,12 @@ noremap <Leader>h :sp<CR>
 
 nnoremap <leader><leader> <c-^>     " switch between the last two files
 
+" Disable arrow keys to enforce god habits
+imap <up> <nop>
+imap <down> <nop>
+imap <left> <nop>
+imap <right> <nop>
+
 " Local config
 if filereadable(".vimrc.local")
   source .vimrc.local
