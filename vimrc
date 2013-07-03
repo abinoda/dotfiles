@@ -18,6 +18,7 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'juvenn/mustache.vim'
 Bundle 'tpope/vim-haml'
 Bundle 'tpope/vim-markdown'
+Bundle 'thoughtbot/vim-rspec'
 
 filetype plugin indent on         " required for vundle
 syntax on                         " turn on syntax highlighting
