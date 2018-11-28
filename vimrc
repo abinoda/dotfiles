@@ -5,19 +5,14 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " -- vundle
-Plugin 'gmarik/vundle'
+Plugin 'VundleVim/Vundle.vim'
 Plugin 'kien/ctrlp.vim.git'
-Plugin 'jiangmiao/auto-pairs'
-Plugin 'mileszs/ack.vim'
 Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-markdown'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'tpope/vim-endwise'
 Plugin 'tpope/vim-rails'
 Plugin 'pangloss/vim-javascript'
-Plugin 'kchmck/vim-coffee-script'
-Plugin 'juvenn/mustache.vim'
-Plugin 'tpope/vim-haml'
-Plugin 'tpope/vim-markdown'
 Plugin 'thoughtbot/vim-rspec'
 
 call vundle#end()                 " required
