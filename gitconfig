@@ -1,0 +1,19 @@
+[user]
+	name = Abi Noda
+	email = a@abinoda.com
+	signingkey = 76749F8B416CDDAD
+[color]
+  branch = auto
+  diff   = auto
+  status = auto
+[alias]
+  co = checkout
+  br = branch
+  st = status
+  rb = !sh -c 'git fetch &&  git checkout --track -b $0 origin/$0'
+  rl = branch -a
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%%an>%Creset' --abbrev-commit --date=relative
+[apply]
+  whitespace = nowarn
+[core]
+	editor = vim
