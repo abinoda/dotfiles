@@ -7,6 +7,9 @@ do
   ln -sfn $DIR/$i ~/.$i
 done
 
+# Clear plugins
+rm -rf ~/.vim/bundle/
+
 # Install Vundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
